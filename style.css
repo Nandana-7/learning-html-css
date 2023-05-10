@@ -51,7 +51,6 @@ ul {
   margin-bottom: 20px;
 }
 
-/* Style the ordered list */
 ol {
   list-style-type: decimal;
   margin-bottom: 20px;
@@ -163,9 +162,24 @@ form input[type="submit"] {
   cursor: pointer;
 }
 
-/* Footer styles */
 footer {
   background-color: #ccc;
   padding: 20px;
   text-align: center;
+}
+#Links{
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  background-color: grey;
+  font-size: 20;
+}
+
+#Links a{
+  color: black;
+
+}
+
+#Links a:hover{
+  color: red;
 }
